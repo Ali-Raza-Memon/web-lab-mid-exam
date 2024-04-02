@@ -2,6 +2,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     
 }
 
@@ -9,8 +10,9 @@
     left: 300px;
 }
 
-.btns{
-
+.btn{
+ background-color: blue;
+ color: white;
 }
 
 .thumbnails{
