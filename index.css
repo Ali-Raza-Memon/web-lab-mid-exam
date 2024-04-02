@@ -1,0 +1,18 @@
+.container,.slider{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+#slider-heading{
+    left: 300px;
+}
+
+.btns{
+
+}
+
+.thumbnails{
+    background-color: aquamarine;
+}

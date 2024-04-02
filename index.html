@@ -8,8 +8,30 @@
     <link rel="stylesheet" href="index.css" />
   </head>
   <body>
-    <img src="./one.svg" alt="image1/" />
     <!-- Your html Code -->
-    <script src="./index.js"></script>
+
+    <div class="container">
+        <h2 id="slider-heading">Image Slider</h2>
+
+        <div class="slider">
+          <img id="imageSlider" src="./two.svg" alt="image1/" width="500px" height="500px" />
+        </div>
+
+        <div class="btns">
+            <button id="prev">Previous</button>
+            <button id="next">Next</button>
+        </div>
+
+        <div id="thumbnails">
+          <div class="images">
+            <img id="imageSlider" src="./one.svg" alt="image1/" width="200px" height="200px" />
+            <img id="imageSlider" src="./two.svg" alt="image1/" width="200px" height="200px" />
+            <img id="imageSlider" src="./three.svg" alt="image1/" width="200px" height="200px" />
+          </div>
+        </div>
+
+    </div>
+
+    <script src="./script.js"></script>
   </body>
 </html>
